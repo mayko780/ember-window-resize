@@ -1,26 +1,26 @@
-# ember-window-resize
+# Ember-window-resize
 
-This README outlines the details of collaborating on this Ember addon.
+Ember service to detect window resize events in your application
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-window-resize`
-* `npm install`
+In your application's directory
 
-## Running
+* `ember install ember-window-resize`
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
 
-## Running Tests
+## Example usage
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+```javascript
+import Ember from 'ember';
+export default Ember.Component.extend({
+  resize: inject.service(),
+  didInsertElement() {
 
-## Building
+    this.get('resize').on('didResize', () => {
+      // Do some resizing magic
+    });
 
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+  }
+});
+```

@@ -1,17 +1,20 @@
 {
   "name": "ember-window-resize",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember service to detect window resize events in your application",
   "keywords": [
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Mirko May",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mayko780/ember-window-resize"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
@@ -45,5 +48,9 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/mayko780/ember-window-resize/issues"
+  },
+  "homepage": "http://mirkomay.com/"
 }
