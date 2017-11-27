@@ -1,5 +1,7 @@
 # Ember-window-resize
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mayko780/ember-window-resize.svg)](https://greenkeeper.io/)
+
 Ember service to detect window resize events in your application
 
 ## Installation
