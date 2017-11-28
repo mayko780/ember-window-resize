@@ -1,4 +1,4 @@
-# Ember-window-resize
+<h1 align="center">Ember-window-resize</h1>
 
 Ember service to detect window resize events in your application
 
