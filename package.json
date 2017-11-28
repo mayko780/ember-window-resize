@@ -1,6 +1,6 @@
 {
   "name": "ember-window-resize",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Ember service to detect window resize events in your application",
   "keywords": [
     "ember-addon"
