@@ -1,6 +1,6 @@
 import { moduleFor, test } from 'ember-qunit';
 
-moduleFor('service:resize', 'Unit | Service | resize', {
+moduleFor('service:windowResize', 'Unit | Service | resize', {
   // Specify the other units that are required for this test.
   // needs: ['service:foo']
 });

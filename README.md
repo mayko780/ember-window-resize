@@ -14,10 +14,10 @@ In your application's directory
 ```javascript
 import Ember from 'ember';
 export default Ember.Component.extend({
-  resize: inject.service(),
+  windowResize: inject.service(),
   didInsertElement() {
 
-    this.get('resize').on('didResize', () => {
+    this.get('windowResize').on('didResize', () => {
       // Do some resizing magic
     });
 
