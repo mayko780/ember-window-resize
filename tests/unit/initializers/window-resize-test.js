@@ -3,7 +3,6 @@ import { run } from '@ember/runloop';
 
 import { initialize } from 'dummy/initializers/window-resize';
 import { module, test } from 'qunit';
-import destroyApp from '../../helpers/destroy-app';
 
 module('Unit | Initializer | resize', {
   beforeEach() {
@@ -11,9 +10,6 @@ module('Unit | Initializer | resize', {
       this.application = Application.create();
       this.application.deferReadiness();
     });
-  },
-  afterEach() {
-    destroyApp(this.application);
   }
 });
 

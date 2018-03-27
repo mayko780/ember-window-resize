@@ -5,5 +5,4 @@ import { start } from 'ember-qunit';
 
 setApplication(Application.create(config.APP));
 
-setResolver(resolver);
 start();
